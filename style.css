@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+        font-family: "Ubuntu", sans-serif;
+        padding: 0;
+        margin: 0;
+}
+body{
+    background-image: linear-gradient(to left, black 40%, white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.295) 40%,rgba(255, 255, 255, 0.295)),
+    url(image/تنزيل.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 100%;
+}
+.container:hover{
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.096) 100%, transparent),
+        url(image/تنزيل.webp);
+}
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a {
+    border-bottom: 2px solid transparent;
+
+}
+
+ul a:hover {
+    border-bottom-color: aliceblue;
+}
+
+
